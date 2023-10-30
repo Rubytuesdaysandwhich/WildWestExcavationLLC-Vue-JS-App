@@ -94,6 +94,7 @@ a {
   margin: 0.5rem;
 }
 .hidden {
+  /* this class hides and show the navigation of the hambuger menu for mobile devices */
   display: none;
 }
 img {
