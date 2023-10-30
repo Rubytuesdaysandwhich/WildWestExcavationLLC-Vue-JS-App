@@ -23,7 +23,7 @@
         v-model="formData.lastName"
         placeholder="handler"
       />
-      <label for="emailAddress">Email Adress</label>
+      <label for="emailAddress">Email Address</label>
       <input
         type="email"
         id="emailAddress"
@@ -44,13 +44,13 @@
         v-model="formData.subject"
         placeholder="land clearing"
       />
-      <label for="reason">Reason</label>
+      <label for="message">message</label>
       <textarea
-        name="reason"
-        id="reason"
+        name="message"
+        id="message"
         cols="30"
         rows="10"
-        v-model="formData.reason"
+        v-model="formData.message"
         placeholder="put the work needed and a short description here"
       ></textarea>
       <br />
@@ -69,7 +69,7 @@ export default {
         phoneNumber: "",
         emailAddress: "",
         subject: "",
-        reason: "",
+        message: "",
       },
     };
   },
@@ -82,7 +82,7 @@ export default {
       this.formData.phoneNumber = "";
       this.formData.emailAddress = "";
       this.formData.subject = "";
-      this.formData.reason = "";
+      this.formData.message = "";
     },
   },
 };
@@ -94,7 +94,7 @@ h1 {
 }
 
 form {
-  background: #0e4702;
+  background: white;
   padding: 20px;
 }
 
@@ -102,7 +102,7 @@ label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: gold;
+  color: black;
 }
 
 input[type="text"],
@@ -112,7 +112,7 @@ textarea {
   width: 50%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid black;
   border-radius: 3px;
 }
 

@@ -33,18 +33,23 @@
 </template>
 <script>
 import SocialsModal from "../Modal/SocialsModal.vue";
-import { ref } from "vue";
+// import { ref } from "vue";
 export default {
   name: "CallNow",
   components: {
     SocialsModal,
   },
-  setup() {
-    const modalActive = ref(false);
-    const toggleModal = () => {
-      modalActive.value = !modalActive.value;
+
+  data() {
+    return {
+      modalActive: false,
     };
-    return { modalActive, toggleModal };
+  },
+
+  methods: {
+    toggleModal() {
+      this.modalActive = !this.modalActive;
+    },
   },
 };
 </script>

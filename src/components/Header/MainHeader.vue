@@ -67,4 +67,9 @@ img {
   width: 6em;
   height: auto;
 }
+@media (max-width: 1220px) {
+  header {
+    display: none;
+  }
+}
 </style>
