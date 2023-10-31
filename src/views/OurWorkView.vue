@@ -63,8 +63,8 @@ export default {
 }
 .grid {
   display: grid;
-  justify-content: space-between;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1rem));
+  justify-content: space-between;
   gap: 1rem;
   /* padding: 15px; */
   /* justify-items: stretch; */
