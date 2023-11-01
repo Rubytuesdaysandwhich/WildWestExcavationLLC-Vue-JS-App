@@ -31,6 +31,56 @@
         <div class="grid-items">
           <img src="../assets/OurWorkPhotos/pumphouse_1.1.4.png" alt="" />
         </div>
+        <!--//todo repeating after here temporary testing -->
+        <div class="grid-items">
+          <img
+            src="../assets/OurWorkPhotos/138353441_233937458304903_4562927222745617653_n.png"
+            alt=""
+          />
+        </div>
+        <div class="grid-items">
+          <img
+            src="../assets/OurWorkPhotos/147588397_251087099923272_1001090064507672368_n.png"
+            alt=""
+          />
+        </div>
+        <div class="grid-items">
+          <img
+            src="../assets/OurWorkPhotos/147596950_251087049923277_3882147264743910707_n.png"
+            alt=""
+          />
+        </div>
+        <div class="grid-items">
+          <img src="../assets/OurWorkPhotos/excavator_1.3.5.png" alt="" />
+        </div>
+        <div class="grid-items">
+          <img src="../assets/OurWorkPhotos/pumphouse_1.1.4.png" alt="" />
+        </div>
+        <!-- section 3 -->
+        <div class="grid-items">
+          <img
+            src="../assets/OurWorkPhotos/138353441_233937458304903_4562927222745617653_n.png"
+            alt=""
+          />
+        </div>
+        <div class="grid-items">
+          <img
+            src="../assets/OurWorkPhotos/147588397_251087099923272_1001090064507672368_n.png"
+            alt=""
+          />
+        </div>
+        <div class="grid-items">
+          <img
+            src="../assets/OurWorkPhotos/147596950_251087049923277_3882147264743910707_n.png"
+            alt=""
+          />
+        </div>
+        <div class="grid-items">
+          <img src="../assets/OurWorkPhotos/excavator_1.3.5.png" alt="" />
+        </div>
+        <div class="grid-items">
+          <img src="../assets/OurWorkPhotos/pumphouse_1.1.4.png" alt="" />
+        </div>
       </div>
     </section>
 
@@ -57,15 +107,16 @@ export default {
 <style scoped>
 .grid-container {
   width: 100%;
-  max-width: auto; /* Adjust the maximum width as needed */
+  /* max-width: auto; Adjust the maximum width as needed */
   padding: 1em;
   background-color: rgb(206, 206, 206);
 }
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1rem));
-  justify-content: space-between;
-  gap: 1rem;
+  grid-template-rows: repeat(auto-fill, minmax(align-self subgrid, auto));
+  /* justify-content: space-between; */
+  gap: 40px;
   /* padding: 15px; */
   /* justify-items: stretch; */
   /* justify-content: center; */

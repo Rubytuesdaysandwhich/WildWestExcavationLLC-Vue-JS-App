@@ -4,6 +4,10 @@
   </div>
 </template>
 
+<script>
+// future project addition? Build a grid like CAD program within the website for people to build and submit plans through the website. Find a way for the owner to interact with the customer in this manner during planning?
+</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
