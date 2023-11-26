@@ -25,15 +25,15 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/ExcavationView.vue"),
   },
-  // {land clearing work will be under sitework
-  //   path: "/landClearing",
-  //   name: "LandClearingView",
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () =>
-  //     import(/* webpackChunkName: "about" */ "../views/LandClearingView.vue"),
-  // },
+  {
+    path: "/landClearing",
+    name: "LandClearingView",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/LandClearingView.vue"),
+  },
   {
     path: "/siteWork",
     name: "SiteWorkView",

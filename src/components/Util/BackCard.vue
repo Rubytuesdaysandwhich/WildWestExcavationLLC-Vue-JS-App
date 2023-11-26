@@ -9,4 +9,11 @@ export default {
 </script>
 <style scoped>
 
+
+.card{
+    background-color: gray;
+    border-radius: 25%;
+    width: 500px ;
+    height: 500px;
+}
 </style>
