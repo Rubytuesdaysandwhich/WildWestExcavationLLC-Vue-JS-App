@@ -6,9 +6,9 @@
           <ul>
             <router-link to="/home">Home</router-link>
             <router-link to="/excavation">Excavation</router-link>
-            <router-link to="/landClearing">Land Clearing</router-link>
+            <!-- <router-link to="/landClearing">Land Clearing</router-link> -->
             <router-link to="/siteWork">Site work</router-link>
-            <router-link to="/septicTanks">Septic Tanks</router-link>
+            <router-link to="/septicTanks">UnderGround Utilities</router-link>
             <router-link to="/contact">Contact</router-link>
             <router-link to="/ourWork">Our Work</router-link>
             <router-link to="/customerReviews">Customer Reviews</router-link>
