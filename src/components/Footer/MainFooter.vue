@@ -37,6 +37,9 @@ footer {
   display: flex;
   flex-direction: column;
   padding-bottom: 1rem;
+  margin-top: 16px;
+
+  
 }
 img {
   height: 5rem;

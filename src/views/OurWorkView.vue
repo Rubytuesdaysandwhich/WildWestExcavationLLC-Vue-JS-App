@@ -1,107 +1,20 @@
 <template>
   <div class="ourWork">
-    <CallNow />
-    <!-- <img alt="Vue logo" src="../assets/_WildWestExcavationLLC-logo.png" /> -->
-    <MainHeader />
-    <hambuger-menu></hambuger-menu>
-    <!-- main content of page -->
-    <section class="grid-container">
-      <div class="grid">
-        <div class="grid-items">
-          <img
-            src="../assets/OurWorkPhotos/138353441_233937458304903_4562927222745617653_n.png"
-            alt=""
-          />
-        </div>
-        <div class="grid-items">
-          <img
-            src="../assets/OurWorkPhotos/147588397_251087099923272_1001090064507672368_n.png"
-            alt=""
-          />
-        </div>
-        <div class="grid-items">
-          <img
-            src="../assets/OurWorkPhotos/147596950_251087049923277_3882147264743910707_n.png"
-            alt=""
-          />
-        </div>
-        <div class="grid-items">
-          <img src="../assets/OurWorkPhotos/excavator_1.3.5.png" alt="" />
-        </div>
-        <div class="grid-items">
-          <img src="../assets/OurWorkPhotos/pumphouse_1.1.4.png" alt="" />
-        </div>
-        <!--//todo repeating after here temporary testing -->
-        <div class="grid-items">
-          <img
-            src="../assets/OurWorkPhotos/138353441_233937458304903_4562927222745617653_n.png"
-            alt=""
-          />
-        </div>
-        <div class="grid-items">
-          <img
-            src="../assets/OurWorkPhotos/147588397_251087099923272_1001090064507672368_n.png"
-            alt=""
-          />
-        </div>
-        <div class="grid-items">
-          <img
-            src="../assets/OurWorkPhotos/147596950_251087049923277_3882147264743910707_n.png"
-            alt=""
-          />
-        </div>
-        <div class="grid-items">
-          <img src="../assets/OurWorkPhotos/excavator_1.3.5.png" alt="" />
-        </div>
-        <div class="grid-items">
-          <img src="../assets/OurWorkPhotos/pumphouse_1.1.4.png" alt="" />
-        </div>
-        <!-- section 3 -->
-        <div class="grid-items">
-          <img
-            src="../assets/OurWorkPhotos/138353441_233937458304903_4562927222745617653_n.png"
-            alt=""
-          />
-        </div>
-        <div class="grid-items">
-          <img
-            src="../assets/OurWorkPhotos/147588397_251087099923272_1001090064507672368_n.png"
-            alt=""
-          />
-        </div>
-        <div class="grid-items">
-          <img
-            src="../assets/OurWorkPhotos/147596950_251087049923277_3882147264743910707_n.png"
-            alt=""
-          />
-        </div>
-        <div class="grid-items">
-          <img src="../assets/OurWorkPhotos/excavator_1.3.5.png" alt="" />
-        </div>
-        <div class="grid-items">
-          <img src="../assets/OurWorkPhotos/pumphouse_1.1.4.png" alt="" />
-        </div>
-      </div>
-    </section>
 
-    <MainFooter />
+    
+
+  
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import MainHeader from "../components/Header/MainHeader.vue";
-import CallNow from "../components/Header/CallNowHeader.vue";
-import MainFooter from "../components/Footer/MainFooter.vue";
-import HambugerMenu from "../components/Header/HambugerMenuHeader.vue";
+
 export default {
   name: "OurWorkView",
-  components: {
-    MainHeader,
-    CallNow,
-    MainFooter,
-    HambugerMenu,
-  },
+  // components: {
+
+  // },
 };
 </script>
 <style scoped>
