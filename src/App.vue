@@ -1,5 +1,5 @@
 <template>
-  <div class="container-global">
+
     <CallNow />
     <MainHeader />
     <hambuger-menu></hambuger-menu>
@@ -7,7 +7,7 @@
     <router-view />
     </main>
     <MainFooter />
-  </div>
+
 </template>
 
 <script>
@@ -31,24 +31,20 @@ export default{
 </script>
 
 <style>
-.container-global{
-  min-height: 100vh;
-  max-height: auto;
-  width: 100vw;
-  max-height: auto;
-}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
 }
 body {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   padding: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 
@@ -64,7 +60,9 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
-
+main{
+  padding-bottom: 50px;
+}
 
 
 </style>

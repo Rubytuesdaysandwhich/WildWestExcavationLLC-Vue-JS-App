@@ -1,5 +1,5 @@
 <template>
-  <div class="footerContainer">
+  <!-- <div class="footerContainer"> -->
     <footer>
       <div class="wildwest-navigation">
         <nav>
@@ -23,7 +23,7 @@
         />
       </router-link>
     </footer>
-  </div>
+  <!-- </div> -->
 </template>
 <script>
 export default {

@@ -96,6 +96,7 @@ h1 {
 form {
   background: white;
   padding: 20px;
+  margin-bottom: 50px;
 }
 
 label {

@@ -1,10 +1,4 @@
 <template>
-  
-  
-    <!-- <CallNow /> -->
-    <!-- <img alt="Vue logo" src="../assets/_WildWestExcavationLLC-logo.png" /> -->
-    <!-- <MainHeader /> -->
-    <!-- <hambuger-menu></hambuger-menu> -->
     <div class="our-mission about-us">
       <h4>Our Mission</h4>
       <p>At Wild West Excavation , our mission is to provide high-quality excavation services that exceed our customer’s expectations. We are committed to delivering safe, efficient, and cost-effective solutions to our clients' excavation needs.</p>
@@ -17,7 +11,7 @@
       <h4>Mission Statement</h4>
       <p>We use state-of-the-art equipment and technology to ensure that our projects are completed safely and efficiently  to meet the highest standards possible .</p>
     </div>
-    <!-- <MainFooter /> -->
+   
   
 </template>
 

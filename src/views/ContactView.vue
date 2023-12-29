@@ -1,11 +1,8 @@
 <template>
   <div class="contact">
-    <!-- <CallNow /> -->
-    <!-- <img alt="Vue logo" src="../assets/_WildWestExcavationLLC-logo.png" /> -->
-    <!-- <MainHeader /> -->
-    <!-- <hambuger-menu></hambuger-menu> -->
+   
     <ContactForm></ContactForm>
-    <!-- <MainFooter /> -->
+    
   </div>
 </template>
 
